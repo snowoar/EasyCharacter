@@ -53,4 +53,5 @@ if Player.Character then
         onCharacterAdded(Player.Character)
 end
 ```
+![](https://media.discordapp.net/attachments/1384756668025409697/1389087296183337010/image.png?ex=686357db&is=6862065b&hm=4c2440553872327df74c291311830c67f9b1274bc6edff687e0110cf12bf5ac2&=&format=webp&quality=lossless)
 Before you criticize on why this module looks useless, I made this for some personal projects. I decided to make this open-source because there was no reason not to.
