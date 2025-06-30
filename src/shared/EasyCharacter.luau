@@ -9,10 +9,10 @@ return function(player: Player, callback: () -> ()?)
 		end
 	end
 
-	player.CharacterAdded:Connect(onCharAdded)
-
 	--init
 	if player.Character then
 		onCharAdded(player.Character)
 	end
+
+	return player.CharacterAdded:Connect(onCharAdded)
 end
